@@ -1,4 +1,4 @@
-package inno;
+package anno;
 
 public class Song {
     private String name;

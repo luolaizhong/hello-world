@@ -9,6 +9,7 @@ public class ArrayDemo {
             arr[i] = i + 1;
         }
         System.out.println(arr);
+
         System.out.println(Arrays.toString(arr));
     }
 }

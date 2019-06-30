@@ -1,7 +1,5 @@
 package core.algorithm;
 
-import org.springframework.core.env.SystemEnvironmentPropertySource;
-
 import java.util.Scanner;
 
 /**

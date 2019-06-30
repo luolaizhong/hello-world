@@ -21,7 +21,7 @@ public class CoinDemo {
         long n = scan.nextInt();
         String str = getCoinStr(n);
         System.out.println(str);
-        printCoinStr(str);
+//        printCoinStr(str);
     }
 
 

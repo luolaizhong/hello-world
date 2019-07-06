@@ -1,4 +1,4 @@
-package designmode.observer;
+package com.llz.designmode.observer;
 
 public interface Subject {
     void register(Observer observer);

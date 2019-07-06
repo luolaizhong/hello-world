@@ -1,4 +1,4 @@
-package core.anno;
+package com.llz.core.anno;
 
 public class Singer {
     private String name;

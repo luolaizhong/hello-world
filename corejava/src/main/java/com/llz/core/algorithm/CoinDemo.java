@@ -1,4 +1,4 @@
-package core.algorithm;
+package com.llz.core.algorithm;
 
 import java.util.Scanner;
 

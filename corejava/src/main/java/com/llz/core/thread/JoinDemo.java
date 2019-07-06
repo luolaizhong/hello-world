@@ -1,4 +1,4 @@
-package core.thread;
+package com.llz.core.thread;
 
 public class JoinDemo {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package core.io;
+package com.llz.core.io;
 
 import java.io.*;
 import java.nio.ByteBuffer;

@@ -1,4 +1,4 @@
-package core.collection;
+package com.llz.core.collection;
 
 import java.util.HashMap;
 import java.util.Map;

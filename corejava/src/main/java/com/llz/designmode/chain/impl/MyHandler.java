@@ -1,6 +1,6 @@
-package designmode.chain.impl;
+package com.llz.designmode.chain.impl;
 
-import designmode.chain.Handler;
+import com.llz.designmode.chain.Handler;
 
 public class MyHandler implements Handler {
 

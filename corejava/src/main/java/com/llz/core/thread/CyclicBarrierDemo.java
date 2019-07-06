@@ -1,4 +1,4 @@
-package core.thread;
+package com.llz.core.thread;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

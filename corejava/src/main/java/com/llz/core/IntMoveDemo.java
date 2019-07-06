@@ -1,4 +1,4 @@
-package core;
+package com.llz.core;
 
 public class IntMoveDemo {
     public static void main(String[] args) {

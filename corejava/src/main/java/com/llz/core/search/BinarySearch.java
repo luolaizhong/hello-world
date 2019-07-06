@@ -1,4 +1,4 @@
-package core.search;
+package com.llz.core.search;
 
 public class BinarySearch {
     public static void main(String[] args) {

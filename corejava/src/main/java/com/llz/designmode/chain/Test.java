@@ -1,6 +1,6 @@
-package designmode.chain;
+package com.llz.designmode.chain;
 
-import designmode.chain.impl.MyHandler;
+import com.llz.designmode.chain.impl.MyHandler;
 
 public class Test {
     public static void main(String[] args) {

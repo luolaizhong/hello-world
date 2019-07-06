@@ -1,8 +1,8 @@
-package designmode.observer;
+package com.llz.designmode.observer;
 
-import designmode.observer.impl.MyObserver1;
-import designmode.observer.impl.MyObserver2;
-import designmode.observer.impl.MySubject;
+import com.llz.designmode.observer.impl.MyObserver1;
+import com.llz.designmode.observer.impl.MyObserver2;
+import com.llz.designmode.observer.impl.MySubject;
 
 public class Test {
     public static void main(String[] args) {

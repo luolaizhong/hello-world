@@ -1,7 +1,7 @@
-package designmode.observer.impl;
+package com.llz.designmode.observer.impl;
 
-import designmode.observer.Observer;
-import designmode.observer.Subject;
+import com.llz.designmode.observer.Observer;
+import com.llz.designmode.observer.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package designmode.observer.impl;
+package com.llz.designmode.observer.impl;
 
-import designmode.observer.Observer;
+import com.llz.designmode.observer.Observer;
 
 public class MyObserver1 implements Observer {
     public void update(String message) {

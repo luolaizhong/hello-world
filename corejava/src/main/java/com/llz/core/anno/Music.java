@@ -1,4 +1,4 @@
-package core.anno;
+package com.llz.core.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

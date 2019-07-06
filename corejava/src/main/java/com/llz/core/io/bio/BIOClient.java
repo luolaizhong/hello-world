@@ -1,4 +1,4 @@
-package core.io.bio;
+package com.llz.core.io.bio;
 
 import java.io.IOException;
 import java.io.OutputStream;

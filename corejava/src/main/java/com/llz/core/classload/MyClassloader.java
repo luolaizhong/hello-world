@@ -1,4 +1,4 @@
-package core.classload;
+package com.llz.core.classload;
 
 import java.net.URL;
 import java.net.URLClassLoader;

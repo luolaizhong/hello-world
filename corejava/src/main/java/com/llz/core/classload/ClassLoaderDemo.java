@@ -1,6 +1,6 @@
-package core.classload;
+package com.llz.core.classload;
 
-import core.collection.HashDemo;
+import com.llz.core.collection.HashDemo;
 
 public class ClassLoaderDemo {
     public static void main(String[] args) {

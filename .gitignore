@@ -2,5 +2,5 @@
 .idea
 .project
 .settings
-/myproject/target
-/myproject/src/test
+target
+src/test

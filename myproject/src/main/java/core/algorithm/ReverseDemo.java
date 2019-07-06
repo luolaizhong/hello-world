@@ -17,7 +17,6 @@ public class ReverseDemo {
         Scanner scanner = new Scanner(System.in);
         long num = scanner.nextLong();
         long reverseNum = getNum(num);
-//        System.out.println(reverseNum);
         System.out.println(num + reverseNum);
     }
 

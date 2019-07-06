@@ -1,4 +1,4 @@
-package anno;
+package core.anno;
 
 public class Singer {
     private String name;

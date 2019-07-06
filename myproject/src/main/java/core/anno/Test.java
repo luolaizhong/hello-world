@@ -1,4 +1,4 @@
-package anno;
+package core.anno;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

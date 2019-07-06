@@ -1,10 +1,12 @@
-package core;
+package core.classload;
+
+import core.collection.HashDemo;
 
 public class ClassLoaderDemo {
     public static void main(String[] args) {
         ClassLoader classLoader = ClassLoader.getSystemClassLoader();
         try {
-            Class<HashDemo> clazz = (Class<HashDemo>) classLoader.loadClass("core.HashDemo");
+            Class<HashDemo> clazz = (Class<HashDemo>) classLoader.loadClass("core.collection.HashDemo");
 //            Class<HashDemo> clazz = HashDemo.class;
             System.out.println(clazz);
             HashDemo hd = clazz.newInstance();

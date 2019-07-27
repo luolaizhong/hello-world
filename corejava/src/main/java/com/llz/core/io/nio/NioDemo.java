@@ -1,4 +1,4 @@
-package com.llz.core.io;
+package com.llz.core.io.nio;
 
 import java.io.*;
 import java.nio.ByteBuffer;
@@ -6,7 +6,7 @@ import java.nio.channels.FileChannel;
 
 public class NioDemo {
     public static void main(String[] args) throws IOException {
-        copy("myproject/src/main/resources/inputParam", "myproject/src/main/resources/outputParam");
+        copy("corejava/src/main/resources/inputParam", "corejava/src/main/resources/outputParam");
     }
 
     public static void copy(String src, String dst) throws IOException {

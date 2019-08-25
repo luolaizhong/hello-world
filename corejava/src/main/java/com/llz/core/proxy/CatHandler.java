@@ -18,8 +18,4 @@ public class CatHandler implements InvocationHandler {
         System.out.println("handler end");
         return null;
     }
-
-    public void eat() {
-        target.eat();
-    }
 }

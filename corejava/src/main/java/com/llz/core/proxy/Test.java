@@ -9,12 +9,13 @@ public class Test {
         cat.eat();
         System.out.println("===================");
 
-        CatHandler catHandler = new CatHandler(cat);
+        CatProxy catProxy = new CatProxy(cat);
         //静态代理
-        catHandler.eat();
+        catProxy.eat();
         System.out.println("===================");
 
         //动态代理
+        CatHandler catHandler = new CatHandler(cat);
         Animal cat2 = (Animal) Proxy.newProxyInstance(cat.getClass().getClassLoader(), cat.getClass().getInterfaces(), catHandler);
         cat2.eat();
     }

@@ -14,9 +14,7 @@ public class ReflectTest {
         System.out.println("====================");
 
         //反射方法调用
-
         Method method = animal.getClass().getDeclaredMethod("eat");
         method.invoke(animal);
-
     }
 }

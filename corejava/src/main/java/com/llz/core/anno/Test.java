@@ -7,7 +7,6 @@ public class Test {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         Singer singer = new Singer("筷子兄弟");
         Song song = new Song("《小苹果》");
-
         singer.sing(song);
 
         Method method = singer.getClass().getDeclaredMethod("sing", song.getClass());
